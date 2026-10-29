@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "title": "Msaada Hub",
+    "category": "NGO donor management",
+    "description": "Msaada Hub is a transparent, efficient and donor-friendly platform that helps humanitarian organizations in East Africa get the most impact from their resources. It gives program managers one place to plan, track and report on funds, supplies and projects. Donors can see exactly where their money goes, from the moment it is received to the point it is delivered.",
+    "image": "/assets/donormanagement.png",
+    "githubUrl": "https://github.com/collinssswm/NGO-Project"
+  }
+]
