@@ -1,0 +1,45 @@
+media:
+  input: assets
+  output: /assets
+  extensions: [png, jpg, jpeg, webp, avif]
+
+content:
+  - name: profile
+    label: Profile
+    type: file
+    path: content/profile.json
+    format: json
+    fields:
+      - name: portrait
+        label: Profile picture
+        type: image
+        options:
+          extensions: [png, jpg, jpeg, webp, avif]
+
+  - name: projects
+    label: Projects
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Project title
+        type: string
+      - name: category
+        label: Category
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: image
+        label: Project overview image
+        type: image
+        options:
+          extensions: [png, jpg, jpeg, webp, avif]
+      - name: githubUrl
+        label: GitHub repository URL
+        type: string
+      - name: liveUrl
+        label: Live website URL
+        type: string
